@@ -4,16 +4,16 @@ html, body {
     overflow: scroll;
     overflow-x: hidden;
     cursor: crosshair;
-  }
+}
   
   ::-webkit-scrollbar {
       width: 0px;
-  }
+}
   
 @font-face {
     font-family: 'MyWebFont';
     src: url('Outage Cut.ttf') format('truetype');
-  }
+}
 
 #box {
     width: 500px;
@@ -36,7 +36,6 @@ html, body {
     height: 20px;
     padding-right: 60px;
 }
-
 
 h1 {
     font-family: 'MyWebFont';
