@@ -1,0 +1,61 @@
+html, body { 
+    margin: 0;
+    background-color white;
+    overflow: scroll;
+    overflow-x: hidden;
+    cursor: crosshair;
+  }
+  
+  ::-webkit-scrollbar {
+      width: 0px;
+  }
+  
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('Outage Cut.ttf') format('truetype');
+  }
+
+#box {
+    width: 500px;
+    height: 500px;
+    background: url(blob.gif) no-repeat center center fixed; 
+    margin: auto;
+    margin-top: 260px;
+    padding-top: 60px;
+}
+
+#info {
+    width: 300px;
+    height: 150px;
+    margin: auto;
+    padding: 5px;
+}
+
+#months, #balance, #interest_rate {
+    width: 235px;
+    height: 20px;
+    padding-right: 60px;
+}
+
+
+h1 {
+    font-family: 'MyWebFont';
+    font-size:30px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+p {
+    font-family: 'MyWebFont';
+    font-size:10px;
+    color: white;
+}
+
+h2 {
+    font-family: 'MyWebFont';
+    font-size:20px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
