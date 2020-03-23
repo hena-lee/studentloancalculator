@@ -4,15 +4,10 @@ html, body {
     overflow: scroll;
     overflow-x: hidden;
     cursor: crosshair;
-}
+  }
   
-  ::-webkit-scrollbar {
+::-webkit-scrollbar {
       width: 0px;
-}
-  
-@font-face {
-    font-family: 'MyWebFont';
-    src: url('Outage Cut.ttf') format('truetype');
 }
 
 #box {
@@ -37,24 +32,26 @@ html, body {
     padding-right: 60px;
 }
 
+
 h1 {
-    font-family: 'MyWebFont';
+    font-family: 'Inter', sans-serif;
     font-size:30px;
     color: white;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 10px;
+    margin-bottom: 0px;
 }
 
 p {
-    font-family: 'MyWebFont';
-    font-size:10px;
+    font-family: 'Inter', sans-serif;
+    font-size:13px;
     color: white;
 }
 
 h2 {
-    font-family: 'MyWebFont';
-    font-size:20px;
+    font-family: 'Inter', sans-serif;
+    font-size:18px;
     color: white;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 5px;
 }
